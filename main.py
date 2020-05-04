@@ -32,6 +32,7 @@ while proc.poll() is None:
     if ips != ipAdress:
         try:
             ipLookup = ipwhois.IPWhois(ips).lookup_whois()
+            #Blocked UDP connections for example google
             if ipLookup["nets"][0]["country"] != 'US':
                 print('-' * 60)
                 print('ip: {}'.format(ips))
