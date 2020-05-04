@@ -5,7 +5,7 @@
 ### tcpdump
 
 - **Windows** ~ <https://www.microolap.com/products/network/tcpdump/download/>
-- **linux** ~ `# apt-get install tcpdump`
+- **Linux** ~ `# apt-get install tcpdump`
 - **MacOs** ~ `# brew install tcpdump`
 
 ### Python and Pip
@@ -15,7 +15,7 @@
 
 ### Dependencies
 
-`pip install re subprocess socket bs4 time requests ipwhois`
+`# pip install re subprocess socket bs4 time requests ipwhois`
 
 ### Executing
 
